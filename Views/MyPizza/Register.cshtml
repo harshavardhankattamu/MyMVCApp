@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model My_MVCApp.Models.Registration;
+
+<div style="width:500px;margin-left:300px;margin-top:100px">
+    <form method="post">
+        <label>Enter username </label>
+        <input type="text" asp-for="Uname" class="form-control" />
+        <span asp-validation-for="Uname" class="btn btn-danger"></span>
+        <label>Enter password </label>
+        <input type="password" asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="btn btn-danger"></span>
+        <label>Select gender </label>
+        <input type="radio" value=true asp-for="Gender" class="form-check-input"/>
+        <input type="radio" value=false asp-for="Gender" class="form-check-input"/><br />
+        <label>Select DOB</label>
+        <input type="date" asp-for="Dob" class="form-control" />
+        <label>Enter Email</label>
+        <input type="text" asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="btn btn-danger"></span>
+        <label>Enter Phone no</label>
+        <input type="text" asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="btn btn-danger"></span>
+        <input type="submit" value="Register" class="btn btn-success" />
+
+    </form>
+</div>
+<div class="btn btn-success">@ViewBag.msg</div>
+
+@* <div style="width:500px;margin-left:300px;margin-top:100px">
+    <form method="post">
+        <label>Enter username </label>
+        @Html.TextBoxFor(c=>c.Uname)<br />
+        <label>Enter password </label>
+        @Html.PasswordFor(c=>c.Password)<br />
+        <label>Select gender </label>
+        @Html.RadioButtonFor(c=>c.Gender,true)
+        @Html.RadioButtonFor(c => c.Gender, false)<br />
+        <label>Select DOB</label>
+        @Html.TextBoxFor(b=>b.Dob, null, new {@type="date"})<br />
+        <label>Enter Email</label>
+        @Html.TextBoxFor(b => b.Email)<br />
+        <label>Enter Phone no</label>
+        @Html.TextBoxFor(b => b.Phone)<br />
+
+        <input type="submit" value="Register" class="btn btn-primary" />
+
+    </form>
+</div>
+<div class="btn btn-success">@ViewBag.msg</div>  *@
+
+@* <div style="width:500px;margin-left:300px;margin-top:100px">
+<form  method="post">
+    <label>Enter username </label>
+        <input type="text" name="Uname" class="form-control" />
+    <label>Enter password </label>
+        <input type="password" name="Password" class="form-control" />
+    <label>Select gender </label>
+        <input type="radio" value=true name="Gender" />
+        <input type="radio" value=false name="Gender"  />
+    <label>Select DOB</label>
+        <input type="date" name="Dob" class="form-control" />
+    <label>Enter Email</label>
+        <input type="text" name="Email" class="form-control" />
+    <label>Enter Phone no</label>
+        <input type="text" name="Phone" class="form-control" />
+
+        <input type="submit" value="Register" class="btn btn-primary" />
+
+</form>
+</div>
+<div class="btn btn-success">@ViewBag.msg</div> *@
