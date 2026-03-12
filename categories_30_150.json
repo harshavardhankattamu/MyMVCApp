@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Clothing, Shoes & Jewelry"
+    },
+    {
+        "id": 2,
+        "name": "Home & Kitchen"
+    },
+    {
+        "id": 3,
+        "name": "Tools & Home Improvement"
+    },
+    {
+        "id": 4,
+        "name": "Women"
+    },
+    {
+        "id": 5,
+        "name": "Clothing"
+    },
+    {
+        "id": 6,
+        "name": "Shoes"
+    },
+    {
+        "id": 7,
+        "name": "Sports & Outdoors"
+    },
+    {
+        "id": 8,
+        "name": "Electronics"
+    },
+    {
+        "id": 9,
+        "name": "Men"
+    },
+    {
+        "id": 10,
+        "name": "Automotive"
+    },
+    {
+        "id": 11,
+        "name": "Accessories"
+    },
+    {
+        "id": 12,
+        "name": "Office Products"
+    },
+    {
+        "id": 13,
+        "name": "Sports"
+    },
+    {
+        "id": 14,
+        "name": "Home D\u00c3\u00a9cor Products"
+    },
+    {
+        "id": 15,
+        "name": "Kitchen & Dining"
+    },
+    {
+        "id": 16,
+        "name": "Office & School Supplies"
+    },
+    {
+        "id": 17,
+        "name": "Power & Hand Tools"
+    },
+    {
+        "id": 18,
+        "name": "Computers & Accessories"
+    },
+    {
+        "id": 19,
+        "name": "Health & Household"
+    },
+    {
+        "id": 20,
+        "name": "Athletic"
+    },
+    {
+        "id": 21,
+        "name": "Beauty"
+    },
+    {
+        "id": 22,
+        "name": "Arts, Crafts & Sewing"
+    },
+    {
+        "id": 23,
+        "name": "Cell Phones & Accessories"
+    },
+    {
+        "id": 24,
+        "name": "Pet Supplies"
+    },
+    {
+        "id": 25,
+        "name": "Bedding"
+    },
+    {
+        "id": 26,
+        "name": "Patio, Lawn & Garden"
+    },
+    {
+        "id": 27,
+        "name": "Furniture"
+    },
+    {
+        "id": 28,
+        "name": "Beauty & Personal Care"
+    },
+    {
+        "id": 29,
+        "name": "Lighting & Ceiling Fans"
+    },
+    {
+        "id": 30,
+        "name": "Toys & Games"
+    }
+]
